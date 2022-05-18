@@ -1,6 +1,5 @@
-let sum = 0;
-
 function threeOrFive(num1, num2, maxNum) {
+  let sum = 0;
   for (let i= 0; i <= maxNum; i++) {
     if (i % num1 === 0) {
       sum += i;
