@@ -1,6 +1,9 @@
 function miles(kilometers) {
     let milesRounded = kilometers / 1.60;
-    return Math.ceil(milesRounded);
+    if (milesRounded) {
+
+    }
+    return Math.round(milesRounded);
 }
 
 console.log(miles(10))
