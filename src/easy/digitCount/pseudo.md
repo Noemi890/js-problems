@@ -1,3 +1,3 @@
 # Pseudo Code Solution
 
-number => toString => length
+number TO STRING LENGTH
